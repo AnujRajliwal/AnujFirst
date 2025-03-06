@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Teacher Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="fade-in">AI-Powered Teacher Assistant</h1>
+        <p class="slide-up">Enhancing Education Through Technology</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="content">
+        <div class="card zoom-in">
+            <h2>Automated Grading</h2>
+            <p>Instant feedback on assignments using AI technology.</p>
+        </div>
+        <div class="card zoom-in">
+            <h2>Personalized Learning</h2>
+            <p>Tailored feedback to help students improve effectively.</p>
+        </div>
+        <div class="card zoom-in">
+            <h2>UN SDG 4</h2>
+            <p>Ensuring inclusive and equitable quality education.</p>
+        </div>
+    </section>
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>AI-Powered Automated Grading</li>
+            <li>Real-Time Personalized Feedback</li>
+            <li>Student Progress Tracking</li>
+            <li>Interactive Learning Experience</li>
+            <li>Seamless Teacher Integration</li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2>About</h2>
+        <p>This project aims to reduce the burden on educators while enhancing learning experiences using AI-driven solutions.</p>
+    </section>
+    <section id="exam-history">
+        <h2>Exam History</h2>
+        <input type="text" id="search-name" placeholder="Enter Name">
+        <input type="text" id="search-roll" placeholder="Enter Roll Number">
+        <input type="text" id="search-class" placeholder="Enter Class">
+        <input type="text" id="search-year" placeholder="Enter Exam Year">
+        <button onclick="filterHistory()">Search</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Roll No</th>
+                    <th>Class</th>
+                    <th>Exam Year</th>
+                    <th>Exam Name</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="history-table-body"></tbody>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 AI Teacher Assistant. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
